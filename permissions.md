@@ -65,3 +65,4 @@ In order to add permissions to use sftp, $ sudo vim /etc/ssh/sshd_config I found
 ![image](https://github.com/user-attachments/assets/1ae7a9ff-3892-4674-a779-bd31f0cd6783)
 Then I restarted the ssh which kicked me out of the command line the moment I entered the command
 
+for the commands I read Linux pocket guide, used a little chatgpt to help determine what commands I can use and used the Unix and Linux system administration handbook
