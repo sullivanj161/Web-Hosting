@@ -7,7 +7,7 @@ configure the HTTPS module using sudo a2ensite default-ssl. then restart apache 
 2. Firewall acknowledgments to allow access to server over configured port
 Enabling firewall acknowledgements is crucial to ensure traffic is able to flow through to the HTTPS port that allows for a connection
 using the commands sudo ufw allow 443 will turn on traffic flow to the HTTPS port allowing for HTTPS access, through the Apache server
-I personally used sufo ufw allow 443 and 80 and 22 to allow for HTTPS HTTP and SSH
+I personally used sufo ufw allow 443 and 80 and 22 to allow for HTTPS HTTP and SSH 
 
 3.Create a self-signed certificate with OpenSSL. Document how this task was complete and details on the location of associated files 
 In order to create a self signed certificate with Open SSL, I went over to digital ocean and followed steps in order to create a 
@@ -56,6 +56,8 @@ which gives it a gray padlock. You can also use a curl -I https://52.22.207.109 
 ![proof of https 123](https://github.com/user-attachments/assets/ff050ca8-a0d8-418c-ad70-77dbf2671ec2)
 ![proof of https](https://github.com/user-attachments/assets/213d3c96-2fee-490a-8a97-74c0c3c2222d)
 ![image](https://github.com/user-attachments/assets/acff2459-ac7d-41e7-8e35-c14bf6b4eb6f)
+
+![image](https://github.com/user-attachments/assets/dba6a485-e37e-4b38-b8bd-62153dafd1c1)
 
 
 
