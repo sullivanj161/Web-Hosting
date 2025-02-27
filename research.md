@@ -82,7 +82,7 @@ Shows as valid domain
      then will want to enter the information that correctly correlates to business location and information
 
      the CSR is important because it will want to be submitted to the CA, this will prompt the email for confirmation to the CA of the valid domain
-
+According to ChatGPT
 Once the CA is obtained, you will want to sudo nano into the conf locations
 in this case using sudo nano /etc/apache2/sites-available/default-ss.conf 
 after this, the business will want to change the line
